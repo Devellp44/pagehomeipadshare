@@ -1,0 +1,34 @@
+.alert {
+    padding: 20px; 
+    background-color: red;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 12px;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: blueviolet;
+  }
+
+  @font-face {
+	font-family: 'Roboto';
+	src: url(‘/fonts/Roboto-Regular.woff2’) format(‘woff2’),
+		url(‘/fonts/Robot-Regular.ttf’) format(‘truetype’)
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
